@@ -1,3 +1,5 @@
+package Builder_Spital.src;
+
 public class Pacient {
     private boolean hasPatRabatabil;
     private boolean hasMicDejun;
