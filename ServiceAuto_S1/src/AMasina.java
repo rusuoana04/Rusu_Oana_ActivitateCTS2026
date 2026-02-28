@@ -1,16 +1,17 @@
 public abstract class AMasina {
-   protected String NrInmatriculare;
+   protected String nrInmatriculare;
 
    public AMasina(String nrInmatriculare) {
-      NrInmatriculare = nrInmatriculare;
+      this.nrInmatriculare = nrInmatriculare;
    }
 
    public String getNrInmatriculare() {
-      return NrInmatriculare;
+      return nrInmatriculare;
    }
 
    public void setNrInmatriculare(String nrInmatriculare) {
-      NrInmatriculare = nrInmatriculare;
+      this.nrInmatriculare = nrInmatriculare;
    }
-   public  abstract String getTip();
+   public abstract String getTip();
+
 }

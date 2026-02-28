@@ -1,6 +1,6 @@
 public class Service implements IService{
-private static Service instance=null;
-private AMasina masinaCurenta;
+    private static Service instance=null;
+    private AMasina masinaCurenta;
 
     public Service() {
         this.masinaCurenta=null;
