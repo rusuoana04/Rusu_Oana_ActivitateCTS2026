@@ -8,5 +8,10 @@ public class Main {
             throw new RuntimeException(e);
         }
         supa.descriere();
+        Restaurant restaurant=new RestaurantBuilder().setAsezareGeam(true).setScauneErgonomice(true).build();
+        System.out.println(restaurant);
     }
+
+
+
 }
