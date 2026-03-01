@@ -14,17 +14,15 @@ public class Main {
 //        supa.descriere();
 //        Restaurant restaurant=new RestaurantBuilder().setAsezareGeam(true).setScauneErgonomice(true).build();
 //        System.out.println(restaurant);
-try{
+try {
     FactoryFeluriMancare factory=new Factory();
-    ISupa supa1=factory.creareSupa(ESupa.supalegume);
-    IDesert desert=factory.creareDesert(EDesert.Clatite);
-supa1.descriere();
-desert.descriere();
+    ISupa supa1=factory.creareSupa(ESupa.supavita);
+    IDesert desert1=factory.creareDesert(EDesert.Clatite);
+    supa1.descriere();
+    desert1.descriere();
 } catch (Exception e) {
     throw new RuntimeException(e);
-
 }
-
 
 
     }
