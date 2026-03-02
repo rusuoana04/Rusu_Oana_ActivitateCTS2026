@@ -14,12 +14,14 @@ public class MagazinBuilder implements Builder{
 
 
 
-    public void setNrIntrari(int nrIntrari) {
+    public MagazinBuilder setNrIntrari(int nrIntrari) {
         this.nrIntrari = nrIntrari;
+        return this;
     }
 
-    public void setTipPodea(String tipPodea) {
+    public MagazinBuilder setTipPodea(String tipPodea) {
         this.tipPodea = tipPodea;
+        return this;
     }
 
     @Override
